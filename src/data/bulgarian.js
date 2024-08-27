@@ -92,13 +92,14 @@ import {
       ],
     },
     softSkills: {
-      title: 'Soft skills',
+      title: '"Меки умения',
       list: [
-        { text: 'Azure, Docker' },
-        { text: 'GitHub, Git' },
-        { text: 'Tailwind' },
-        { text: 'Figma, Jira' },
-      ],
+            { text: 'Работа в екип и сътрудничество' },
+            { text: 'Приветливост' },
+            { text: 'Отговорност' },
+            { text: 'Самоорганизираност' },
+            { text: 'Добра комуникация' },
+      ]
     },
   
     /**

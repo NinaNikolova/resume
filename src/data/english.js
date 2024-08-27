@@ -95,10 +95,11 @@ import {
     softSkills: {
       title: 'Soft skills',
       list: [
-        { text: 'Azure, Docker' },
-        { text: 'GitHub, Git' },
-        { text: 'Tailwind' },
-        { text: 'Figma, Jira' },
+        { text: 'Teamwork&Cooperation' },
+        { text: 'Friendliness' },
+        { text: 'Responsibility' },
+        { text: 'Self-management' },
+        { text: 'Good communication' },
       ],
     },
   
