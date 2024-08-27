@@ -202,24 +202,29 @@ import {
       title: 'Дипломи и Сертификати',
       list: [
         {
-          name: 'CS50x: Introduction to Computer Science',
-          provider: 'Harvard University',
+          name: 'Full-stack JavaScript Developer',
+          provider: 'Software University',
+          url: ''
         },
         {
-          name: 'Responsive Web Design Certification',
-          provider: ' freeCodeCamp',
+          name: 'Java Advance-Jan 2024 -Jan 2024',
+          provider: 'Software University',
+          url: 'https://softuni.bg/certificates/details/203382/3e2e30b7 '
         },
         {
-          name: 'Algorithms and Data Structures Certification',
-          provider: ' freeCodeCamp',
+          name: 'Java OOP-Feb 2024',
+          provider: 'Software University',
+          url:'https://softuni.bg/certificates/details/211065/3ca50784 '
         },
         {
-          name: 'Data Visualization Certification',
-          provider: ' freeCodeCamp',
+          name: 'PostgreSQL',
+          provider: 'Software University',
+          url: ''
         },
         {
-          name: 'Front End Libraries Certification',
-          provider: ' freeCodeCamp',
+          name: 'Full-stack JavaScript Developer',
+          provider: 'Software University',
+          url: 'https://softuni.bg/certificates/details/216935/1e04bc5e'
         },
       ],
     },
