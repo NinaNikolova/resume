@@ -142,6 +142,14 @@ import {
           url: 'https://borsa.garantburgas.com/sectorRanking?origin_code=bg',
         },
         {
+          name: 'Родът на моя котарак Криси',
+          techList: [
+            'React'
+          ],
+          description: `Thе project's name is Родът на моя котарак Криси. Its putpose is to design a system to store information about my pet's family tree according to the condition of the task given Speed IT Up - Nemetschek Bulgaria`,
+          url: 'https://my-pet-family-tree.vercel.app',
+        },
+        {
           name: 'B2114 DAT Compiler',
           techList: [
             'HTML',
