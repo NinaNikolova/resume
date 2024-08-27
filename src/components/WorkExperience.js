@@ -12,7 +12,7 @@ export default function WorkExperience({ data }) {
             <div className="header sm-border-bottom">
               <h4>
                 {jobTitle} <br />
-                {company}, {location} <br />
+                {company} - {location} <br />
               </h4>
 
               <span className="date">
