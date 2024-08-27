@@ -1,3 +1,5 @@
+import Link from "./Links.js";
+
 export default function Certificates({ data }) {
     const { title, list } = data;
   
@@ -5,10 +7,10 @@ export default function Certificates({ data }) {
       <section className="certificates">
         <h2>{title}</h2>
         <ul>
-          {list.map(({ name, provider }) => (
+          {list.map(({ name, provider, url }) => (
             <li key={name}>
               <h4>
-                {name}
+              <Link to={url}>{name}</Link>
                 <span className="provider"> &mdash; {provider}</span>
               </h4>
             </li>

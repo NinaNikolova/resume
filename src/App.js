@@ -18,6 +18,7 @@ import Education from './components/Education';
 import allData from './data';
 
 function App() {
+  
   const [language, setLanguage] = React.useState('english');
 
   const data = allData[language];

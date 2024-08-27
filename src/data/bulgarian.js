@@ -205,7 +205,7 @@ import {
         {
           name: 'Full-stack JavaScript Developer',
           provider: 'Software University',
-          url: ''
+          url: 'https://softuni.bg/certificates/details/185271/46d18211'
         },
         {
           name: 'Java Advance-Jan 2024 -Jan 2024',
@@ -223,9 +223,9 @@ import {
           url: ''
         },
         {
-          name: 'Full-stack JavaScript Developer',
+          name: 'Software Technologies - 072018',
           provider: 'Software University',
-          url: 'https://softuni.bg/certificates/details/216935/1e04bc5e'
+          url: 'https://softuni.bg/certificates/details/56833/6cd31a3c'
         },
       ],
     },
