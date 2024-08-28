@@ -231,10 +231,60 @@ import {
           url: ''
         },
         {
-          name: 'Software Technologies - 072018',
+          name: 'Software Technologies - July 2018',
           provider: 'Software University',
           url: 'https://softuni.bg/certificates/details/56833/6cd31a3c'
         },
+        {
+          name: "Intern & Team Lead Academy",
+          provider: 'Software University',
+          url: "https://drive.google.com/file/d/1HAVNopZsz644p_lY8Q1Oogcr1DbC4RLR/view?pli=1",
+      },
+      {
+          name: "JS Advanced-September 2022",
+          provider: 'Software University',
+          url: "https://softuni.bg/certificates/details/145356/24d4c3a8",
+      },
+      {
+          name: "HTML & CSS - January 2022",
+          provider: 'Software University',
+          url: "https://softuni.bg/certificates/details/127626/4af97c58",
+      },
+      {
+          name: "Programming Basics with Java - March 2018 - Honorable mention",
+          provider: 'Software University',
+          url: "https://softuni.bg/certificates/details/53854/9d4168c0",
+      },
+      {
+          name: "ReactJS - February 2023",
+          provider: 'Software University',
+          url: "https://softuni.bg/certificates/details/168611/6bbe309d",
+      },
+      {
+          name: "Angular - June 2023",
+          provider: 'Software University',
+          url: "https://softuni.bg/certificates/details/182994/647a6f7a",
+      },
+      {
+          name: "JS Back-End - May 2023",
+          provider: 'Software University',
+          url: "https://softuni.bg/certificates/details/175230/51bce23f",
+      },
+      {
+          name: "JS Applications - February 2023",
+          provider: 'Software University',
+          url: "https://softuni.bg/certificates/details/167781/ed8020f8",
+      },
+      {
+          name: "Programming Fundamentals with JavaScript - May 2022",
+          provider: 'Software University',
+          url: "https://softuni.bg/certificates/details/139037/70a130ce",
+      },
+      {
+          name: "Programming Basic - January 2022",
+          provider: 'Software University',
+          url: "https://softuni.bg/certificates/details/125134/4d6c8840",
+      },
       ],
     },
   
