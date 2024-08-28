@@ -70,11 +70,18 @@ select {
   position: absolute;
   padding: 5px 10px;
   font-size: 18px;
+  top:40px;
+}
+#btn {
+  position: absolute;
+  padding: 5px 10px;
+  font-size: 18px;
+
 }
 
 /* Hide utils when printing or saving as pdf */
 @media print {
-  select,
+  select, #btn,
   .page::after {
     display: none;
   }
@@ -229,4 +236,7 @@ Page {
 Link {
   color: blue;
   text-decoration: underline;
+}
+.invisible-text {
+  color: transparent; /* Makes the text color invisible */
 }
