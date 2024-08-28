@@ -13,11 +13,13 @@ import {
     FaRunning,
   } from 'react-icons/fa';
   import { PiPersonSimpleHike } from "react-icons/pi";
+  import ninaImage from '../nina.jpg';
   
   const content = {
     /**
-     * Full name
+     * Full name and image
      */
+    img: ninaImage,
     fullName: 'Нина Николова',
   
     /**

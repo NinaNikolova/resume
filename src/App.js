@@ -16,6 +16,7 @@ import Certificates from './components/Certificates';
 import Education from './components/Education';
 
 import allData from './data';
+import Image from './components/Image';
 
 function App() {
   
@@ -31,6 +32,7 @@ function App() {
 
       <div className="page">
         <div className="column left">
+          <Image img={data.img} />
           <Details data={data.contact} />
           <Details data={data.keySkills} defaultIcon={<FullCheckIcon />} />
           <Details data={data.additionalSkills} defaultIcon={<CheckIcon />} />
@@ -40,7 +42,7 @@ function App() {
         </div>
 
         <div className="column right">
-          <FullName text={data.fullName} />
+        <FullName text={data.fullName} />
           <Summary data={data.summary} />
           <Projects data={data.projects} />
           <WorkExperience data={data.workExperience} />

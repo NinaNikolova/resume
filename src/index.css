@@ -160,19 +160,37 @@ p {
 }
 
 /* ================================================================= */
-/* FULL NAME */
+/* FULL NAME / IMAGE*/
 /* ================================================================= */
+.image-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image-portfolio img {
+   border-radius: 50%; /* Makes the image circular */
+   width: 100px;
+  height: 100px;
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+  border: 2px solid skyblue; /* Optional: Adds a border around the image */
+ 
+}
 
 .full-name {
-  padding-bottom: 12.5px;
+  padding: 6px;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 12.5px;
+  margin: 16px;
+  background-image: linear-gradient(to right, #87CEEB, #4682B4); /* Gradient background */
+  border-radius: 16px 0px 16px 0px;
+  color: white;
 }
 
 .full-name h1 {
   font-size: 42px;
   font-weight: 400;
-  letter-spacing: 10px;
+  letter-spacing: 6px;
   text-align: center;
   text-transform: uppercase;
 }
