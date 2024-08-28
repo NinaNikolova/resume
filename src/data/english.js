@@ -219,14 +219,19 @@ import {
           url: 'https://softuni.bg/certificates/details/185271/46d18211'
         },
         {
+          name: 'Containers and Cloud - July 2024',
+          provider: 'Software University',
+          url: 'https://softuni.bg/certificates/details/225479/ce73942a'
+        },
+        {
           name: 'Java Advance-Jan 2024 -Jan 2024',
           provider: 'Software University',
-          url: 'https://softuni.bg/certificates/details/203382/3e2e30b7 '
+          url: 'https://softuni.bg/certificates/details/203382/3e2e30b7'
         },
         {
           name: 'Java OOP-Feb 2024',
           provider: 'Software University',
-          url:'https://softuni.bg/certificates/details/211065/3ca50784 '
+          url:'https://softuni.bg/certificates/details/211065/3ca50784'
         },
         {
           name: 'PostgreSQL',
