@@ -47,7 +47,7 @@ function App() {
         const x = (rect.left - inputRect.left) * (pdfWidth / input.offsetWidth);
         const y = (rect.top - inputRect.top) * (pdfHeight / input.offsetHeight);
         let text = linkElement.textContent;
-text='                               ';
+text = '                             ';
 
         pdf.textWithLink(text, x, y, { url: url });
     });
