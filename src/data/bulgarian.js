@@ -182,7 +182,7 @@ import {
       title: 'Работен опит',
       list: [
         {
-          company: 'Garant Burgas Intern & Team Lead Academy/Nacov.com/',
+          company: 'Garant Burgas Intern & Team Lead Academy/Nakov.com/',
           location: 'отдалечено, стаж',
           date: {
             start: '2024-05',

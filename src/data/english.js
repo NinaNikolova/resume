@@ -190,7 +190,7 @@ import {
             end: '2024-07',
           },
           jobTitle: 'Web Developer-React',
-          description: `As part of an Academy for trainees and team leaders /Navov.com/ I performed frontend development /as trainee/ with React, TypeScript and Tailwind.
+          description: `As part of an Academy for trainees and team leaders /Nakov.com/ I performed frontend development /as trainee/ with React, TypeScript and Tailwind.
             `,
         },
         {
@@ -202,7 +202,7 @@ import {
           },
           jobTitle: 'Web Developer - Angular',
           description: `
-            As part of an Academy for trainees and team leaders /Navov.com/ I performed frontend development /as trainee/ with Angular and TypeScript.`,
+            As part of an Academy for trainees and team leaders /Nakov.com/ I performed frontend development /as trainee/ with Angular and TypeScript.`,
         },
       ],
     },
