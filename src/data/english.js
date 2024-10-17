@@ -224,6 +224,11 @@ const data = {
         url: 'https://softuni.bg/certificates/details/185271/46d18211'
       },
       {
+        name: 'MySQL - September 2024',
+        provider: 'Software University',
+        url: 'https://softuni.bg/certificates/details/226214/e4019d94'
+      },
+      {
         name: 'Containers and Cloud - July 2024',
         provider: 'Software University',
         url: 'https://softuni.bg/certificates/details/225479/ce73942a'
