@@ -209,6 +209,26 @@ const content = {
         description: `
             Като част от Академията за стажанти и тиймлидери аз изпълнявах frontend development /като стажант/ с  Angular and TypeScript.`,
       },
+      {
+        company: 'Accountant, Afin Bulgaria EAD',
+        location: 'full-time',
+        date: {
+          start: '2007-11',
+          end: '2022-03',
+        },
+        jobTitle: 'Accountant',
+        description:`Accounting of the banks, cash, expense reports, leasing, purchases and sales invoices, salaries... 2. intercompany reporting 3. VAT and Intrastat 4. I work with professional software -Sun Systems (ERP), MS Excel, MS Word, online bank systems`,
+      },
+      {
+        company: 'Accountant, Mercurius – Sofia AD',
+        location: 'full-time',
+        date: {
+          start: '2004-05',
+          end: '2007-11',
+        },
+        jobTitle: 'Accountant',
+        description:`Accounting of the banks and cash, expense reports, work with professional software -Sun Systems (ERP), MS Excel, MS Word, online bank systems`,
+      },
     ],
   },
 
@@ -313,11 +333,27 @@ const content = {
     title: 'Образование',
     list: [
       {
+        institution: 'SU St. Kliment Ohridski',
+        description: 'Software technologies, Master degree',
+        date: {
+          start: '2024-09',
+          end: 'till now',
+        },
+      },
+      {
         institution: 'Софтуерен университет',
         description: 'Web JavaScript Development/Web Java Development',
         date: {
           start: '2018-01',
           end: 'до сега',
+        },
+      },
+      {
+        institution: 'Economic Academy D. A. Tzenov',
+        description: 'Accounting and Control, Master degree',
+        date: {
+          start: '1995-10',
+          end: '2000-10',
         },
       },
     ],

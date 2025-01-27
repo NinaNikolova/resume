@@ -175,7 +175,7 @@ const data = {
         description: `
             The app project is the defense of an exam on ReactJS at SoftUni. Its lists for ideas for walks, trips and adventures for families with children in nature, at sights and interesting places around Bulgaria and the world.`,
         url: 'https://unasiposvetasdeca.vercel.app',
-      },
+      }
     ],
   },
 
@@ -208,6 +208,27 @@ const data = {
         jobTitle: 'Web Developer - Angular',
         description: `
             As part of an Academy for trainees and team leaders /Nakov.com/ I performed frontend development /as trainee/ with Angular and TypeScript.`,
+      },
+      
+      {
+        company: 'Accountant, Afin Bulgaria EAD',
+        location: 'full-time',
+        date: {
+          start: '2007-11',
+          end: '2022-03',
+        },
+        jobTitle: 'Accountant',
+        description:`Accounting of the banks, cash, expense reports, leasing, purchases and sales invoices, salaries... 2. intercompany reporting 3. VAT and Intrastat 4. I work with professional software -Sun Systems (ERP), MS Excel, MS Word, online bank systems`,
+      },
+      {
+        company: 'Accountant, Mercurius – Sofia AD',
+        location: 'full-time',
+        date: {
+          start: '2004-05',
+          end: '2007-11',
+        },
+        jobTitle: 'Accountant',
+        description:`Accounting of the banks and cash, expense reports, work with professional software -Sun Systems (ERP), MS Excel, MS Word, online bank systems`,
       },
     ],
   },
@@ -314,11 +335,27 @@ const data = {
     title: 'Education',
     list: [
       {
+        institution: 'SU St. Kliment Ohridski',
+        description: 'Software technologies, Master degree',
+        date: {
+          start: '2024-09',
+          end: 'till now',
+        },
+      },
+      {
         institution: 'Software University',
         description: 'Web JavaScript Development/Web Java Development',
         date: {
           start: '2018-01',
           end: 'till now',
+        },
+      },
+      {
+        institution: 'Economic Academy D. A. Tzenov',
+        description: 'Accounting and Control, Master degree',
+        date: {
+          start: '1995-10',
+          end: '2000-10',
         },
       },
     ],
