@@ -88,8 +88,9 @@ text = '                             ';
           <Summary data={data.summary} />
           <Projects data={data.projects} />
           <WorkExperience data={data.workExperience} />
+            <Education data={data.education} />
           <Certificates data={data.certificates} />
-          <Education data={data.education} />
+        
         </div>
       </div>
 

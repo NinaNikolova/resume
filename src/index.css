@@ -13,7 +13,7 @@ ul {
 }
 
 body {
-  font-size: 14px;
+  font-size: 11px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -188,14 +188,14 @@ p {
 .full-name {
   padding: 6px;
   border-bottom: 1px solid #ccc;
-  margin: 16px;
+  /* margin: 16px; */
   background-image: linear-gradient(to right, #87CEEB, #4682B4); /* Gradient background */
   border-radius: 16px 0px 16px 0px;
   color: white;
 }
 
 .full-name h1 {
-  font-size: 42px;
+  font-size: 18px;
   font-weight: 400;
   letter-spacing: 6px;
   text-align: center;

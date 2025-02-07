@@ -75,15 +75,12 @@ const data = {
   keySkills: {
     title: 'Key skills',
     list: [
-      { text: 'Angular' },
-      { text: 'React' },
-      { text: 'JavaScript' },
-      { text: 'TypeScript' },
+      { text: 'React, Angular' },
+      { text: 'JavaScript, TypeScript' },
       { text: 'Java' },
-      { text: 'Responsive Web Design' },
-      { text: 'HTML5, CSS3' },
+      { text: 'Responsive Web Design, HTML, CSS, UML' },
       { text: 'Node.js, Express.js' },
-      { text: 'PostgreSQL, MongoDB' },
+      { text: 'PostgreSQL, MongoDB, MySQL' },
     ],
   },
 
@@ -93,10 +90,8 @@ const data = {
   additionalSkills: {
     title: 'Additional skills',
     list: [
-      { text: 'Azure, Docker' },
-      { text: 'GitHub, Git' },
-      { text: 'Tailwind' },
-      { text: 'Figma, Jira' },
+      { text: 'Azure, Docker, GitHub' },
+      { text: 'Tailwind, Figma, Jira' },
     ],
   },
   softSkills: {
@@ -106,7 +101,7 @@ const data = {
       { text: 'Friendliness' },
       { text: 'Responsibility' },
       { text: 'Self-management' },
-      { text: 'Good communication' },
+
     ],
   },
 
@@ -148,14 +143,7 @@ const data = {
         description: `As part of an Academy for trainees and team leaders /SoftUni/ I performed frontend development /as trainee/ with React, TypeScript and Tailwind.`,
         url: 'https://borsa.garantburgas.com/sectorRanking?origin_code=bg',
       },
-      {
-        name: 'Родът на моя котарак Криси',
-        techList: [
-          'React'
-        ],
-        description: `Thе project's name is Родът на моя котарак Криси. Its putpose is to design a system to store information about my pet's family tree according to the condition of the task given Speed IT Up - Nemetschek Bulgaria`,
-        url: 'https://my-pet-family-tree.vercel.app',
-      },
+
       {
         name: 'B2114 DAT Compiler',
         techList: [
@@ -169,13 +157,7 @@ const data = {
             B2114 DAT Compiler is my first project for the business website of my family friend.`,
         url: 'https://b2114-datcompiler.xyz',
       },
-      {
-        name: 'У нас и по света с деца',
-        techList: ['React', 'Material-UI', 'Express.js', 'MongoDB', 'Mongoose'],
-        description: `
-            The app project is the defense of an exam on ReactJS at SoftUni. Its lists for ideas for walks, trips and adventures for families with children in nature, at sights and interesting places around Bulgaria and the world.`,
-        url: 'https://unasiposvetasdeca.vercel.app',
-      }
+
     ],
   },
 
@@ -210,26 +192,6 @@ const data = {
             As part of an Academy for trainees and team leaders /Nakov.com/ I performed frontend development /as trainee/ with Angular and TypeScript.`,
       },
       
-      {
-        company: 'Accountant, Afin Bulgaria EAD',
-        location: 'full-time',
-        date: {
-          start: '2007-11',
-          end: '2022-03',
-        },
-        jobTitle: 'Accountant',
-        description:`Accounting of the banks, cash, expense reports, leasing, purchases and sales invoices, salaries... 2. intercompany reporting 3. VAT and Intrastat 4. I work with professional software -Sun Systems (ERP), MS Excel, MS Word, online bank systems`,
-      },
-      {
-        company: 'Accountant, Mercurius – Sofia AD',
-        location: 'full-time',
-        date: {
-          start: '2004-05',
-          end: '2007-11',
-        },
-        jobTitle: 'Accountant',
-        description:`Accounting of the banks and cash, expense reports, work with professional software -Sun Systems (ERP), MS Excel, MS Word, online bank systems`,
-      },
     ],
   },
 
@@ -290,11 +252,7 @@ const data = {
         provider: 'Software University',
         url: "https://softuni.bg/certificates/details/127626/4af97c58",
       },
-      {
-        name: "Programming Basics with Java - March 2018 - Honorable mention",
-        provider: 'Software University',
-        url: "https://softuni.bg/certificates/details/53854/9d4168c0",
-      },
+
       {
         name: "ReactJS - February 2023",
         provider: 'Software University',
@@ -315,16 +273,7 @@ const data = {
         provider: 'Software University',
         url: "https://softuni.bg/certificates/details/167781/ed8020f8",
       },
-      {
-        name: "Programming Fundamentals with JavaScript - May 2022",
-        provider: 'Software University',
-        url: "https://softuni.bg/certificates/details/139037/70a130ce",
-      },
-      {
-        name: "Programming Basic - January 2022",
-        provider: 'Software University',
-        url: "https://softuni.bg/certificates/details/125134/4d6c8840",
-      },
+ 
     ],
   },
 
