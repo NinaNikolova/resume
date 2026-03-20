@@ -382,3 +382,62 @@ li { margin-bottom: 0; }
     print-color-adjust: exact;
   }
 }
+/* ================================================================= */
+/* CONTROLS (select + button) */
+/* ================================================================= */
+
+.App > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  width: 21cm;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+}
+
+select {
+  position: static;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid #ccd3de;
+  border-radius: 6px;
+  background-color: #f4f7fb;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+select:hover,
+select:focus {
+  border-color: #4682B4;
+}
+
+#btn {
+  position: static;
+  padding: 6px 18px;
+  font-size: 14px;
+  background: linear-gradient(135deg, #4a90d9, #4682B4);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  transition: opacity 0.2s, transform 0.1s;
+  box-shadow: 0 2px 6px rgba(70, 130, 180, 0.3);
+}
+
+#btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+#btn:active {
+  transform: translateY(0);
+}
