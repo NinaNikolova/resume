@@ -173,10 +173,10 @@ const content = {
     list: [
       {
         company: "Evolution of Dreams EOOD",
-        location: "remote, junior frontend developer",
+        location: "remote, web developer",
         date: {
-          start: "2026-08",
-          end: "до сега",
+          start: "2025-08",
+          end: "2026-03",
         },
         jobTitle: "Web Developer",
         description: `Frontend development - Angular, React, Tailwind, Ionic, Primeng, WordPress`,

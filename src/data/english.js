@@ -29,7 +29,7 @@ const data = {
     text: `
        Front-end developer with 1+ years of experience in developing web 
   applications. This experience has been mainly gained through participation 
-  in internship programs and work on various projects.`,
+  in internship programs and work.`,
   },
 
   /**
@@ -137,7 +137,7 @@ const data = {
           "Primeng",
           "WordPress",
         ],
-        description: `Frontend development`,
+        description: `Web development`,
         url: [
           "https://manifest-code.com",
           "https://marbirec.com/",
@@ -177,10 +177,10 @@ const data = {
     list: [
       {
         company: "Evolution of Dreams EOOD",
-        location: "remote, junior frontend developer",
+        location: "remote, web developer",
         date: {
-          start: "2026-08",
-          end: "till now",
+          start: "2025-08",
+          end: "2026-03",
         },
         jobTitle: "Web Developer",
         description: `Frontend development - Angular, React, Tailwind, Ionic, Primeng, WordPress`,
