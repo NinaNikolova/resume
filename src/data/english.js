@@ -108,7 +108,7 @@ const data = {
    */
   languages: {
     title: "Languages",
-    list: [{ text: "Bulgarian - Native" }, { text: "English - B1" }],
+    list: [{ text: "Bulgarian - Native" }, { text: "English - B2" }, { text: "Greek - A1" }],
   },
 
   /**
