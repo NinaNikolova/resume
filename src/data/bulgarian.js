@@ -128,7 +128,7 @@ const content = {
     title: "Проекти",
     list: [
       {
-        name: "Evolution of Dreams EOOD",
+        name: "ManifestCode",
         techList: [
           "Angular",
           "React",
@@ -138,7 +138,7 @@ const content = {
           "WordPress",
         ],
         description: `Frontend development`,
-        url: ["https://manifest-code.com","https://marbirec.com/","https://www.golfairsofia.com/"],
+        url: ["https://manifest-code.com"],
       },
       {
         name: "Garant Burgas",

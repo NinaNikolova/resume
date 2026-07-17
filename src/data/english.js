@@ -128,7 +128,7 @@ const data = {
     title: "Projects",
     list: [
       {
-        name: "Evolution of Dreams EOOD",
+        name: "ManifestCode",
         techList: [
           "Angular",
           "React",
@@ -140,15 +140,13 @@ const data = {
         description: `Web development`,
         url: [
           "https://manifest-code.com",
-          "https://marbirec.com/",
-          "https://www.golfairsofia.com/",
         ],
       },
       {
         name: "Garant Burgas",
         techList: ["React", "Tailwind", "React-icons", "React-Toastify"],
         description: `As part of an Academy for trainees and team leaders /SoftUni/ I performed frontend development /as trainee/ with React, TypeScript and Tailwind.`,
-        url: "https://borsa.garantburgas.com/sectorRanking?origin_code=bg",
+        url: "https://borsa.garantburgas.com",
       },
 
       {
