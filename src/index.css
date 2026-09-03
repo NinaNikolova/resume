@@ -348,6 +348,29 @@ body {
   color: var(--mid);
 }
 
+/* ── Right column typography ───────────────────── */
+.column.right h2 {
+  font-size: 1rem;
+  color: var(--accent);
+}
+
+.column.right h4 {
+  font-size: 0.85rem;
+  color: var(--ink);
+}
+
+.column.right p {
+  font-size: 0.8rem;
+  color: var(--mid);
+}
+
+.column.right .date,
+.column.right .provider {
+  font-size: 0.72rem;
+  font-weight: 400;
+  color: var(--soft);
+}
+
 /* ── Links ─────────────────────────────────────── */
 a:link,
 a:visited {
