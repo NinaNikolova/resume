@@ -144,7 +144,7 @@ const content = {
         name: "Garant Burgas",
         techList: ["React", "Tailwind", "React-icons", "React-Toastify"],
         description: `Като част от Академията за стажанти и тиймлидери аз изпълнявах frontend development /като стажант/ с React, TypeScript and Tailwind.`,
-        url: "https://borsa.garantburgas.com/sectorRanking?origin_code=bg",
+        url: "https://borsa.garantburgas.com",
       },
 
       {
