@@ -12,6 +12,7 @@ import {
   FaBook,
   FaRunning,
 } from "react-icons/fa";
+import { FaSailboat } from "react-icons/fa6";
 import { PiPersonSimpleHike } from "react-icons/pi";
 import ninaImage from "../nina.jpg";
 
@@ -28,8 +29,8 @@ const content = {
   summary: {
     title: "Kратко представяне",
     text: `
-        Front-end developer с 1+ години опит в разработването на web 
-        applications. Опитът е придобит главно от участие в стажански програми и от работа по различни проекти.`,
+        1/ Front-end developer с 1+ години опит в разработването на web 
+        applications. Опитът е придобит главно от участие в стажански програми и от работа по различни проекти. 2/ Счетоводител с над 10 години професионален опит в областта на счетоводството, финансовото отчитане и счетоводното обслужване. Опит в работата с ERP системи за управление на счетоводни процеси, финансови данни, фактуриране, банкови и счетоводни операции, съгласуване на сметки и изготвяне на финансови отчети. Отлични умения за поддържане на точна и организирана финансова информация и ефективно управление на ежедневните счетоводни процеси.`,
   },
 
   /**
@@ -91,6 +92,7 @@ const content = {
     list: [
       { text: "Azure, Docker, GitHub" },
       { text: "Tailwind, Figma, Jira" },
+      { text: "ERP системи (Microsoft Navision), MS Excel" },
     ],
   },
   softSkills: {
@@ -121,6 +123,7 @@ const content = {
       { text: "Учене на нови неща", icon: <FaReact /> },
       { text: "Четене", icon: <FaBook /> },
       { text: "Активност", icon: <FaRunning /> },
+      { text: "Ветроходство", icon: <FaSailboat /> },
     ],
   },
 
@@ -202,6 +205,26 @@ const content = {
         jobTitle: "Web Developer - Angular",
         description: `
             Като част от Академията за стажанти и тиймлидери аз изпълнявах frontend development /като стажант/ с  Angular and TypeScript.`,
+      },
+      {
+        company: "Affin Bulgaria EAD",
+        location: "Sofia, Bulgaria",
+        date: {
+          start: "2007-11",
+          end: "2022-03",
+        },
+        jobTitle: "Счетоводител",
+        description: `Счетоводно отчитане на банкови операции, разходни отчети, лизинг и др. чрез ERP система Microsoft Navision.`,
+      },
+      {
+        company: "Mercurius-Sofia AD",
+        location: "Sofia, Bulgaria",
+        date: {
+          start: "2004-05",
+          end: "2007-10",
+        },
+        jobTitle: "Счетоводител",
+        description: `Счетоводно отчитане на банкови операции, разходни отчети, изготвяне на ежедневни справки за задължения/вземания и др. чрез ERP система MS Navision.`,
       },
     ],
   },

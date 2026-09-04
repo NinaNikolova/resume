@@ -11,6 +11,7 @@ import {
   FaBook,
   FaRunning,
 } from "react-icons/fa";
+import { FaSailboat } from "react-icons/fa6";
 import { PiPersonSimpleHike } from "react-icons/pi";
 import ninaImage from "../nina.jpg";
 
@@ -27,9 +28,9 @@ const data = {
   summary: {
     title: "Summary",
     text: `
-       Front-end developer with 1+ years of experience in developing web 
+       1/ Front-end developer with 1+ years of experience in developing web 
   applications. This experience has been mainly gained through participation 
-  in internship programs and work.`,
+  in internship programs and work. 2/ Accountant with 10+ years of experience in accounting, financial reporting and bookkeeping. Experienced in using ERP systems to manage accounting processes, financial records, invoicing, reconciliations, and reporting. Strong ability to ensure accuracy, maintain organized financial data, and support efficient day-to-day financial operations.`,
   },
 
   /**
@@ -91,6 +92,7 @@ const data = {
     list: [
       { text: "Azure, Docker, GitHub" },
       { text: "Tailwind, Figma, Jira" },
+      { text: "ERP systems (Microsoft Navision), MS Excel" },
     ],
   },
   softSkills: {
@@ -121,6 +123,7 @@ const data = {
       { text: "Learning new things", icon: <FaReact /> },
       { text: "Reading", icon: <FaBook /> },
       { text: "Being active", icon: <FaRunning /> },
+      { text: "Sailing", icon: <FaSailboat /> },
     ],
   },
 
@@ -204,6 +207,26 @@ const data = {
         jobTitle: "Web Developer - Angular",
         description: `
             As part of an Academy for trainees and team leaders /Nakov.com/ I performed frontend development /as trainee/ with Angular and TypeScript.`,
+      },
+      {
+        company: "Affin Bulgaria EAD",
+        location: "Sofia, Bulgaria",
+        date: {
+          start: "2007-11",
+          end: "2022-03",
+        },
+        jobTitle: "Accountant",
+        description: `Accounting of bank transactions, expense reports, leasing and etc. using ERP Microsoft Navision.`,
+      },
+      {
+        company: "Mercurius-Sofia AD",
+        location: "Sofia, Bulgaria",
+        date: {
+          start: "2004-05",
+          end: "2007-10",
+        },
+        jobTitle: "Accountant",
+        description: `Accounting of bank transactions, expense reports, preparing daily reports for payables/receivables and etc. using ERP MS Navision.`,
       },
     ],
   },
