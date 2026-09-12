@@ -271,7 +271,7 @@ const data = {
       {
         name: "PostgreSQL",
         provider: "Software University",
-        url: "",
+        url: "https://softuni.bg/certificates/details/216935/1e04bc5e",
       },
       {
         name: "Software Technologies - July 2018",
