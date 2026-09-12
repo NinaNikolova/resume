@@ -146,22 +146,29 @@ const content = {
       {
         name: "Garant Burgas",
         techList: ["React", "Tailwind", "React-icons", "React-Toastify"],
-        description: `Като част от Академията за стажанти и тиймлидери аз изпълнявах frontend development /като стажант/ с React, TypeScript and Tailwind.`,
+        description: `Като част от Академията за стажанти и тиймлидери аз изпълнявах frontend development `,
         url: "https://borsa.garantburgas.com",
       },
 
       {
-        name: "B2114 DAT Compiler",
+        name: "Credito",
         techList: [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "GoDaddy",
-          "Free SSL Certificate",
+          "Angular",
+          "Ionic"
         ],
         description: `
-            B2114 DAT Compiler е моят първи ентусиаски проект за стартъп биснес на приятел на семейството ми.`,
-        url: "https://b2114-datcompiler.xyz",
+            Web development`,
+        url: "https://credito.bg/",
+      },
+            {
+        name: "Marbirec",
+        techList: [
+          "React",
+          "Bootstrap",
+        ],
+        description: `
+            Web development`,
+        url: "https://marbirec.com/",
       },
     ],
   },

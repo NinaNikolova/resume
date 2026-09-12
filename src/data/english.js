@@ -137,8 +137,7 @@ const data = {
           "React",
           "Tailwind",
           "Ionic",
-          "Primeng",
-          "WordPress",
+          "Primeng"
         ],
         description: `Web development`,
         url: [
@@ -148,22 +147,29 @@ const data = {
       {
         name: "Garant Burgas",
         techList: ["React", "Tailwind", "React-icons", "React-Toastify"],
-        description: `As part of an Academy for trainees and team leaders /SoftUni/ I performed frontend development /as trainee/ with React, TypeScript and Tailwind.`,
+        description: `As part of an Academy for trainees and team leaders /SoftUni/ I performed frontend development`,
         url: "https://borsa.garantburgas.com",
       },
 
       {
-        name: "B2114 DAT Compiler",
+        name: "Credito",
         techList: [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "GoDaddy",
-          "Free SSL Certificate",
+          "Angular",
+          "Ionic"
         ],
         description: `
-            B2114 DAT Compiler is my first project for the business website of my family friend.`,
-        url: "https://b2114-datcompiler.xyz",
+            Web development`,
+        url: "https://credito.bg/",
+      },
+            {
+        name: "Marbirec",
+        techList: [
+          "React",
+          "Bootstrap",
+        ],
+        description: `
+            Web development`,
+        url: "https://marbirec.com/",
       },
     ],
   },

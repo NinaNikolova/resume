@@ -6,9 +6,9 @@ export default function Certificates({ data }) {
     return (
       <section className="certificates">
         <h2>{title}</h2>
-        <ul>
+        <ul className="cert-grid">
           {list.map(({ name, provider, url }) => (
-            <li key={name}>
+            <li key={name} className="cert-item">
               <h4>
               <Link to={url}>{name}</Link>
                 <span className="provider"> &mdash; {provider}</span>
