@@ -40,13 +40,16 @@ function App() {
         const rect = linkElement.getBoundingClientRect();
         const inputRect = input.getBoundingClientRect();
 
-        // Calculate position of the link
-        const x = (rect.left - inputRect.left) * (pdfWidth / input.offsetWidth);
-        const y = (rect.top - inputRect.top) * (pdfHeight / input.offsetHeight);
-        let text = linkElement.textContent;
-        text = "                             ";
+        // Calculate position and size of the link
+        const scaleX = pdfWidth / input.offsetWidth;
+        const scaleY = pdfHeight / input.offsetHeight;
+        const x = (rect.left - inputRect.left) * scaleX;
+        const y = (rect.top - inputRect.top) * scaleY;
+        const w = rect.width * scaleX;
+        const h = rect.height * scaleY;
 
-        pdf.textWithLink(text, x, y, { url: url });
+        // Clickable area exactly over the link, so links don't overlap
+        pdf.link(x, y, w, h, { url: url });
       });
 
       pdf.save("download.pdf");
